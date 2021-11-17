@@ -482,9 +482,10 @@
 //**************** ToDo List - Works ***********************************/
 
 import { useState } from "react"
+import './App.css'
 
 const App = () => {
-  const [nums, setNums] = useState ([])
+  const [todo, setTodo] = useState ([])
   const [input, setInput] = useState("")
 
   const changeHandler = (event) => {
@@ -492,27 +493,29 @@ const App = () => {
   }
 
   const addHandler = () => {
-    let storedNums = [...nums]
-    storedNums.push(input)
-    setNums(storedNums)
+    let addTask = [...todo]
+    addTask.push(input)
+    setTodo(addTask)
   }
 
   const removeHandler = (index) => {
-    let storedNums = [...nums]
-    storedNums.splice(index, 1)
-    setNums(storedNums)
+    let addTask = [...todo]
+    addTask.splice(index, 1)
+    setTodo(addTask)
   }
 
    return (
-    <div>
+    <div className="mainContainer">
       <h1>To do list</h1>
-      <input type="text" onChange={changeHandler}/>
-      <p>{input} <button onClick={addHandler}>add item</button></p>
-      {nums.map((num, index) => {
+      <div className="input">
+        <p><input type="text" onChange={changeHandler}/></p>
+        <p><button onClick={addHandler}>add new task</button></p>
+      </div>
+      {todo.map((task, index) => {
         return (
-          <div key={index}>
-          <h2>{num}<button onClick={() => removeHandler(index)}>complete</button></h2>
-          
+          <div className="taskList" key={index}>
+            <h2>{task}</h2>
+            <p><button onClick={() => removeHandler(index)}>complete</button></p>
           </div>
         )
       })}

@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+ /* *******  BBC CSS STARTS  *********/
+ /* .row1 {
+  display: flex;
+  border:darkgreen solid 2px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainStory {
+  display: flex;
+  flex-basis: 75%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.smallStory {
+  display: flex;
+  align-items: stretch;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.row2 {
+  display: flex;
+  gap: 10px;
+}
+
+.largeContainer {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 2;
+  margin: 10px;
+}
+
+.imgLarge {
+  max-width: 920px; 
+}
+
+.textLarge {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 40px;
+  margin-right: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.timeLarge {  
+  margin-top: auto;
+  border: blue solid 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.smallContainer {
+  margin: 10px;
+  min-width: 100px;
+  max-width: 450px;
+  border: orange solid 2px;
 }
+
+.imgSmall {
+  max-width: 440px;
+  border: red solid 2px;
+}
+
+.textSmall {
+  margin-top: auto;
+}
+
+.timeSmall {
+  margin-top: auto;
+  border: lightcoral solid 2px;
+} */
+
+
+
+
+
+ /* *******  BBC CSS Ends  **********/
+ /* ********AIRBNB CSS STARTS - happy*******/
+
+/* .app {
+  display:flex;
+}
+
+.splash {
+  
+  margin: 10px;
+}
+
+img {
+  min-width: 100px;
+  max-width: 100%;
+  border-radius: 2%;
+} */
+
+/* ********AIRBNB CSS ENDS *******/
+/* ********NETFLIX CSS STARTS - happy*******/
+
+/* * {
+  background-color: black;
+}
+
+.app {
+  display:flex;
+  justify-content: space-evenly;
+  margin: 5px;  
+}
+
+.splash {
+  padding: 2px;  
+}
+
+img {
+  min-width: 100px;
+  max-width: 100%;
+  border-radius: 1%;  
+} */
+
+/* ********NETFLIX CSS ENDS *******/
+
+
+/******************************************************/
+/**********************WEDNESDAY***********************/
+/******************************************************/
+

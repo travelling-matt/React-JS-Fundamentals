@@ -113,18 +113,22 @@ img {
 /********** TO DO LIST CSS ****************************/
 
 
-* {
-  background-color: #59c3c3;
+body {
+  background-image: url(./images/todo1.png);
+  background-repeat: no-repeat;
+  background-size: auto;  
   margin: 10px;
 }
 
 .mainContainer {
   display: flex;
   flex-direction: column;
-  margin: 0 35%;
+  height:800px;
+  width: 600px;
   align-items: center;
   max-width: 30%;
   border: white solid 2px;
+  background-image: url(./images/todo2.jpg);
   }
 
 .input {
@@ -153,7 +157,7 @@ img {
 h1 {
   border: lightgreen solid 2px;
 
-}
+} 
 
 
 

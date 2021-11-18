@@ -509,13 +509,13 @@ const App = () => {
       <h1>To do list</h1>
       <div className="input">
         <p><input type="text" onChange={changeHandler}/></p>
-        <p><button onClick={addHandler}>add new task</button></p>
+        <p className="btnRight"><button onClick={addHandler}>add new task</button></p>
       </div>
       {todo.map((task, index) => {
         return (
           <div className="taskList" key={index}>
             <h2>{task}</h2>
-            <p><button onClick={() => removeHandler(index)}>complete</button></p>
+            <p className="btnRight"><button onClick={() => removeHandler(index)}>complete</button></p>
           </div>
         )
       })}

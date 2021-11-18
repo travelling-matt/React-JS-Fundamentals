@@ -5,4 +5,4 @@ Create to do list where items can be added and then removed when complete.
 
 ##2. ./calculator/calc.js and ./calculator/calc.css contain project to create a simple calculator in React
 
-#Update index.js as appropriate to switch between 1 amd 2.
+#Update index.js as appropriate to switch between 1 and 2.
